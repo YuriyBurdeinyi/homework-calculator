@@ -3,7 +3,7 @@ const digits = document.querySelectorAll('.digits');
 const opers = document.querySelectorAll('.opers');
 const result = document.querySelector('#result');
 const reset = document.querySelector('#reset');
-
+  
 
 digits.forEach(btn => btn.addEventListener('click', digitPressed));
 opers.forEach(btn => btn.addEventListener('click', operPressed));
